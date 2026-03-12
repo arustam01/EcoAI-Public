@@ -18,7 +18,13 @@
           <img class="brand-logo" src="../assets/ecoai-logo.jpg" alt="EcoAI logo" />
         </a>
 
-        <nav class="nav-links">
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links" id="site-menu">
           <div class="nav-item has-dropdown">
             <a href="#hardware">AI Hardware</a>
             <div class="dropdown-menu">
@@ -47,9 +53,10 @@
             </div>
           </div>
           <a href="#about">About Us</a>
+          <a class="nav-cta nav-cta-mobile" href="#contact">Get Demo</a>
         </nav>
 
-        <a class="nav-cta" href="#contact">Get Demo</a>
+        <a class="nav-cta nav-cta-desktop" href="#contact">Get Demo</a>
       </div>
     </header>
 
