@@ -1,0 +1,9 @@
+/* prevent hidden iframe overlay */
+iframe {
+    display: none;
+}
+
+/* restrict pointer hijacking */
+body {
+    pointer-events: auto;
+}
