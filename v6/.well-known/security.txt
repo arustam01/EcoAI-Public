@@ -1,0 +1,4 @@
+Contact: security@ecoai.com
+Policy: https://ecoai.com/security
+Expires: 2027-01-01
+Preferred-Languages: en
